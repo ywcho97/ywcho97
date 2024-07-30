@@ -1,0 +1,161 @@
+@charset 'utf-8';
+@import url('materialdesignicons.css');
+
+
+/* MaterialDesignIcons.com */
+@font-face {
+	font-family: "Material Design Icons";   
+	src: url("../fonts/materialdesignicons-webfont.eot?v=6.5.95");   
+	src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=6.5.95") format("embedded-opentype"), 
+		url("../fonts/materialdesignicons-webfont.woff2?v=6.5.95") format("woff2"), 
+		url("../fonts/materialdesignicons-webfont.woff?v=6.5.95") format("woff"), 
+		url("../fonts/materialdesignicons-webfont.ttf?v=6.5.95") format("truetype");  
+	font-weight: normal;   
+	font-style: normal;
+}
+
+/* 노토 산스 */
+@font-face {
+      font-family: 'noto-sans-l';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Noto Sans Light'), local('NotoSans-Light'), url("../fonts/NotoSans-Light.eot");
+      src: url("../fonts/NotoSans-Light.eot?#iefix") format('embedded-opentype'),
+      url("../fonts/NotoSans-Light.woff2") format('woff2'),
+      url("../fonts/NotoSans-Light.woff") format('woff');;
+}
+
+@font-face {
+      font-family: 'noto-sans-r';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Noto Sans Regular'), local('NotoSans-Regular'), url("../fonts/NotoSans-Regular.eot");
+      src: url("../fonts/NotoSans-Regular.eot?#iefix") format('embedded-opentype'),
+            url("../fonts/NotoSans-Regular.woff2") format('woff2'),
+            url("../fonts/NotoSans-Regular.woff") format('woff');
+}
+
+@font-face {
+      font-family: 'noto-sans-m';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Noto Sans Medium'), local('NotoSans-Medium'), url("../fonts/NotoSans-Medium.eot");
+      src: url("../fonts/NotoSans-Medium.eot?#iefix") format('embedded-opentype'),
+            url("../fonts/NotoSans-Medium.woff2") format('woff2'),
+            url("../fonts/NotoSans-Medium.woff") format('woff');
+}
+
+@font-face {
+      font-family: 'noto-sans-b';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Noto Sans Bold'), local('NotoSans-Bold'), url("../fonts/NotoSans-Bold.eot");
+      src: url("../fonts/NotoSans-Bold.eot?#iefix") format('embedded-opentype'),
+            url("../fonts/NotoSans-Bold.woff2") format('woff2'),
+            url("../fonts/NotoSans-Bold.woff") format('woff');
+}
+
+@font-face {
+      font-family: 'PuradakGentleGothicR';
+      src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 400;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-Book.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 400;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-BookItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 100;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-Thin.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 100;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-ThinItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 200;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-ExtraLight.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 200;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-ExtraLightItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 300;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-Light.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 300;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-LightItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 500;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-Medium.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 500;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-MediumItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 600;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-SemiBold.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 600;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-SemiBoldItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 700;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-Bold.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 700;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-BoldItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 800;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-ExtraBold.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 800;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-ExtraBoldItalic.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 900;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-Black.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Morganite';
+      font-weight: 900;
+      src: local('Morganite'), url('https://fonts.cdnfonts.com/s/18660/Morganite-BlackItalic.woff') format('woff');
+  }
+  
+  @font-face {
+      font-family: 'Rangile';
+      font-style: normal;
+      font-weight: 400;
+      src: local(''), url('https://fonts.cdnfonts.com/s/107528/Rangile.woff') format('woff');
+  }
+    
